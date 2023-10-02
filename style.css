@@ -149,13 +149,14 @@ main .container {
 }
 .feature-content p {
   font-size: 1.5rem;
-  margin: 1rem 0;
+  margin-bottom: 1rem;
+  line-height: 1.5;
 }
 .feature-content i {
   color: #8bd8bd;
 }
 .smth {
-  height: 100vh;
+  height: 10vh;
   background-color: black;
 }
 @media (max-width: 1000px) {
@@ -200,6 +201,6 @@ main .container {
   }
   .content-register,
   .content-stack {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 }
