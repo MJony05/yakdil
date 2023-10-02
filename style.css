@@ -170,6 +170,10 @@ main .container {
   html {
     font-size: 70%;
   }
+  .content-header {
+    font-size: 2rem;
+    line-height: 1.7;
+  }
   main .container {
     text-align: center;
     grid-template-columns: 1fr;
@@ -189,5 +193,10 @@ main .container {
   }
   .content-right img {
     width: 250px;
+    transform: translateX(1rem);
+  }
+  .content-register,
+  .content-stack {
+    font-size: 1rem;
   }
 }
