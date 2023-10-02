@@ -139,7 +139,7 @@ main .container {
   text-align: center;
   margin: 2rem 0;
   font-size: 2rem;
-  text-shadow: 0 5px 25px #8bd8bd;
+  text-shadow: 0 5px 10px #8bd8bd9c;
 }
 .features span {
   color: #8bd8bd;
