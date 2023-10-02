@@ -167,12 +167,15 @@ main .container {
   }
 }
 @media (max-width: 500px) {
+  .container {
+    width: 90%;
+  }
   html {
     font-size: 70%;
   }
   .content-header {
     font-size: 2rem;
-    line-height: 1.7;
+    line-height: 1.8;
   }
   main .container {
     text-align: center;
@@ -197,6 +200,6 @@ main .container {
   }
   .content-register,
   .content-stack {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
