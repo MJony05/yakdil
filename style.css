@@ -213,10 +213,7 @@ footer .container {
   justify-content: space-between;
   align-items: center;
 }
-.footer-contact {
-  display: flex;
-  gap: 1rem;
-}
+
 .footer-logo img {
   height: 100px;
   width: auto;
