@@ -156,10 +156,6 @@ main .container {
 .feature-content i {
   color: #8bd8bd;
 }
-.smth {
-  height: 10vh;
-  background-color: black;
-}
 .section-heading {
   margin: 2rem 0;
   font-size: 2rem;
@@ -286,5 +282,9 @@ footer .container {
   }
   .service-card .services-list {
     grid-column: 2 /3;
+  }
+  footer .container {
+    flex-direction: column;
+    text-align: center;
   }
 }
