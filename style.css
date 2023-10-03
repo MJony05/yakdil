@@ -210,6 +210,23 @@ main .container {
   object-fit: contain;
   filter: drop-shadow(0 5px 10px #8bd8bd);
 }
+
+footer .container {
+  color: #8bd8bd;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-logo img {
+  height: 100px;
+  width: auto;
+}
+
+.footer-contact p {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
 @media (max-width: 1000px) {
   html {
     font-size: 80%;
