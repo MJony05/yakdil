@@ -82,7 +82,7 @@ main .container {
   display: flex;
   align-items: center;
   margin-top: 1rem;
-  gap: 1rem;
+
   font-size: 1.5rem;
 }
 
@@ -208,6 +208,7 @@ main .container {
   width: 120px;
   height: 130px;
   object-fit: contain;
+  filter: drop-shadow(0 5px 10px #8bd8bd);
 }
 @media (max-width: 1000px) {
   html {
