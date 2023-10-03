@@ -58,6 +58,9 @@ main .container {
   background-color: #8bd8bd;
   color: black;
 }
+.content-left a {
+  text-decoration: none;
+}
 .content-register {
   display: flex;
   align-items: center;
