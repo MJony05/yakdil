@@ -117,16 +117,15 @@ main .container {
   background-color: #161b19;
   font-family: 'Montserrat', sans-serif;
 }
-.team-content .team-header {
+.team-text span {
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 1rem;
   text-transform: uppercase;
   line-height: 1.4;
-}
-.team-content .team-header span {
   color: #8bd8bd;
 }
+
 .team-text {
   font-size: 1.5rem;
   text-align: justify;
@@ -214,6 +213,10 @@ footer .container {
   justify-content: space-between;
   align-items: center;
 }
+.footer-contact {
+  display: flex;
+  gap: 1rem;
+}
 .footer-logo img {
   height: 100px;
   width: auto;
@@ -222,6 +225,13 @@ footer .container {
 .footer-contact p {
   margin: 0.5rem 0;
   font-size: 1.2rem;
+}
+.footer-contact a {
+  color: #8bd8bd;
+  text-decoration: none;
+}
+.footer-contact a:hover {
+  text-decoration: underline;
 }
 @media (max-width: 1000px) {
   html {
@@ -284,6 +294,11 @@ footer .container {
     grid-column: 2 /3;
   }
   footer .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-contact {
+    gap: 0;
     flex-direction: column;
     text-align: center;
   }
