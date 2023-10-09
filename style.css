@@ -167,7 +167,7 @@ main .container {
 }
 .services-content {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   gap: 2rem 3rem;
 }
