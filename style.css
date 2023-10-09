@@ -64,7 +64,7 @@ main .container {
 .content-register {
   display: flex;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin: 1rem 0;
 }
 
@@ -86,7 +86,7 @@ main .container {
   align-items: center;
   margin-top: 1rem;
 
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .content-right {
