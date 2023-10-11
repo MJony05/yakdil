@@ -226,7 +226,7 @@ main .container {
 }
 .service-card {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: min-content 1fr;
   gap: 0.5rem;
   align-items: center;
 }
